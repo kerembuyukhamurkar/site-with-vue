@@ -1,4 +1,16 @@
 <template>
-  <h1>start</h1>
+  <navBar/>
 </template>
+
+
+<script>
+import navBar from"./components/navBar.vue"
+export default{
+  components:{
+  navBar
+}
+}
+
+
+</script>
 
