@@ -1,10 +1,10 @@
 <template>
    <div class="flex justify-evenly  bg-red-700 w-screen h-screen px-10 gap-8 ">
      <button class="text-2xl flex justify-center items-center" @click="back">-</button>
-    <div class="bg-blue-700 w-screen">
-       <p>{{ sliderContentList[indexSlider] }}</p>
+    <div class="flex items-center justify-center bg-blue-700 w-screen ">
+       <p class="text-3xl">{{ sliderContentList[indexSlider] }}</p>
     </div>
-      <button class="text-2xl text-center" @click="forward">+</button>
+      <button class="text-3xl text-center" @click="forward">+</button>
    </div>
 </template>
 
